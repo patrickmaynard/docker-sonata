@@ -1,15 +1,15 @@
-# Symfony 5 docker containers
+# Sonata docker containers
 
 A Proof-of-concept of a running Symfony 5 application inside containers
 
-Modified from https://gitlab.com/martinpham/symfony-5-docker
+Modified from https://github.com/patrickmaynard/symfony-5-docker
 
 ### Cloning/renaming the project
 
 To clone and rename the project:
 
 ```
-git clone https://github.com/patrickmaynard/symfony-5-docker.git
+git clone https://github.com/patrickmaynard/docker-sonata.git
 mv symfony-5-docker my-new-repo-name
 cd my-new-repo-name
 
@@ -26,9 +26,7 @@ git push
 To run containers:
 
 ```
-git clone https://github.com/patrickmaynard/symfony-5-docker.git
-
-cd symfony-5-docker
+cd docker-sonata
 
 cd docker
 

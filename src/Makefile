@@ -12,3 +12,12 @@ test:
 
 test-automated:
 	SYMFONY_DEPRECATIONS_HELPER=disabled /var/www//vendor/bin/phpunit
+
+assets:
+	bin/console cache:clear
+	bin/console assets:install
+
+init:
+	make install
+	make assets
+	make db

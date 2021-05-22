@@ -80,3 +80,13 @@ cd ..
 echo "docker/database/data/" >> .git/info/exclude
 echo "docker/logs/" >> .git/info/exclude
 ```
+
+### Generating a Sonata admin class
+
+We already have an example Post entity. So do this:
+
+```
+bin/console make:sonata:admin
+```
+
+... and then follow the prompts. 

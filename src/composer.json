@@ -7,14 +7,17 @@
         "symfony/dotenv": "*",
         "doctrine/doctrine-migrations-bundle": "2.*",
         "symfony/yaml": "*",
-        "sensio/framework-extra-bundle": "*"
+        "sensio/framework-extra-bundle": "*",
+        "sonata-project/user-bundle": "*",
+        "symfony/templating": "*",
+        "symfony/acl-bundle": "*"
     },
     "require-dev": {
-      "symfony/stopwatch": "^5.2",
-      "symfony/twig-bundle": "^4.4",
-      "symfony/web-profiler-bundle": "^5.0",
-        "doctrine/doctrine-fixtures-bundle": "^3.4",
-        "symfony/maker-bundle": "^1.31"
+      "symfony/stopwatch": "*",
+      "symfony/twig-bundle": "*",
+      "symfony/web-profiler-bundle": "*",
+        "doctrine/doctrine-fixtures-bundle": "*",
+        "symfony/maker-bundle": "*"
     },
     "scripts": {
         "auto-scripts": {

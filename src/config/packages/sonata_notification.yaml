@@ -1,0 +1,12 @@
+sonata_notification:
+    consumers:
+        register_default: false
+    admin:
+        enabled: false
+    #For now, I'll just skip queuing to keep things simple.
+    #Change this later if we need real queuing.
+    #(See commented-out lines below.)
+    backend: sonata.notification.backend.runtime
+    # backend: sonata.notification.backend.postpone
+    # backend: sonata.notification.backend.doctrine
+    # backend: sonata.notification.backend.rabbitmq

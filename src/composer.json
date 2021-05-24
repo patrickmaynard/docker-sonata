@@ -10,7 +10,12 @@
         "sensio/framework-extra-bundle": "*",
         "sonata-project/user-bundle": "*",
         "symfony/templating": "*",
-        "symfony/acl-bundle": "*"
+        "symfony/acl-bundle": "*",
+        "sonata-project/block-bundle": ">=3.0 <4.0",
+        "sonata-project/cache-bundle": "*",
+        "sonata-project/seo-bundle": "*",
+        "sonata-project/notification-orm-pack": "*",
+        "symfony/mailer": "*"
     },
     "require-dev": {
       "symfony/stopwatch": "*",

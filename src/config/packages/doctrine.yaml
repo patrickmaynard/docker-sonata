@@ -20,3 +20,4 @@ doctrine:
                         alias: App
                     SonataUserBundle: ~
                     FOSUserBundle: ~
+                    SonataNotificationBundle: ~

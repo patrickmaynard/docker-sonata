@@ -1,5 +1,6 @@
-sonata_block:
-  blocks:
-    # enable the SonataAdminBundle block
-    sonata.admin.block.admin_list:
-      contexts: [admin]
+sonata_admin:
+  assets:
+    extra_javascripts:
+      - bundles/sonatapage/sonata-page.back.min.js
+    extra_stylesheets:
+      - bundles/sonatapage/sonata-page.back.min.css

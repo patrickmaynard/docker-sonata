@@ -2,7 +2,11 @@
 
 sonata_block:
   default_contexts: [sonata_page_bundle]
+  context_manager: sonata.page.block.context_manager
   blocks:
+    # enable the SonataAdminBundle block
+    sonata.admin.block.admin_list:
+      contexts: [admin]
 
   # Some block with different templates
   #acme.demo.block.demo:

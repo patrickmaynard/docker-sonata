@@ -21,3 +21,4 @@ doctrine:
                     SonataUserBundle: ~
                     FOSUserBundle: ~
                     SonataNotificationBundle: ~
+                    SonataPageBundle: ~

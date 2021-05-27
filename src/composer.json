@@ -15,7 +15,17 @@
         "sonata-project/cache-bundle": "*",
         "sonata-project/seo-bundle": "*",
         "sonata-project/notification-orm-pack": "*",
-        "symfony/mailer": "*"
+        "symfony/mailer": "*",
+        "friendsofsymfony/rest-bundle": "*",
+        "nelmio/api-doc-bundle": "*",
+        "sonata-project/page-bundle": "*",
+        "jms/serializer-bundle": "*",
+        "doctrine/persistence": "^1.3",
+        "sonata-project/easy-extends-bundle": "*",
+        "sonata-project/exporter":  "*",
+        "sonata-project/core-bundle": "*",
+        "sonata-project/doctrine-extensions": "*",
+        "sonata-project/twig-extensions": "*"
     },
     "require-dev": {
       "symfony/stopwatch": "*",

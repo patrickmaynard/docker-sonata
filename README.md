@@ -1,4 +1,4 @@
-# Sonata docker containers
+# OLD, BROKEN - Sonata docker containers
 
 A Proof-of-concept of a running Symfony 5 application inside containers
 
